@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import { navLinks } from '@/constatns';
 
 const Header = () => {
   return (
@@ -18,15 +20,14 @@ const Header = () => {
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          <li className="text-primary font-semibold text-xl hover:text-secondary">
-            <Link href="/about">About Me</Link>
-          </li>
-          <li className="text-primary font-semibold text-xl hover:text-secondary">
-            <Link href="/work">Work</Link>
-          </li>
-          <li className="text-primary font-semibold text-xl hover:text-secondary">
-            <Link href="/contacts">Contacts</Link>
-          </li>
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className="text-primary font-semibold text-xl hover:text-secondary"
+            >
+              <Link href={link.id}>{link.title}</Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
