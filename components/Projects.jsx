@@ -1,5 +1,5 @@
 const Projects = () => {
-  return <div>Projects</div>;
+  return <div className="absolute inset-0 top-[820px]">Projects</div>;
 };
 
 export default Projects;

@@ -23,6 +23,14 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.yellow-gradient {
+  background: #fbdf7b;
+  background: linear-gradient(-90deg, #fbdf7b 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg,
+      #fbdf7b 0%,
+      rgba(60, 51, 80, 0) 100%);
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -35,18 +43,4 @@
 
 .animate-fade-in {
   animation: fade-in 1.0s ease;
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-.animate-fade-out {
-  animation: fade-out 1.0s ease;
 }

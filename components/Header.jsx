@@ -58,9 +58,7 @@ const Header = () => {
         <div
           className={`${
             !showMenu ? 'hidden' : 'flex'
-          } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 w-full h-screen z-10 rounded-xl ${
-            showMenu ? 'animate-fade-in' : 'animate-fade-out'
-          }`}
+          } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 w-full h-screen z-10 rounded-xl animate-fade-in`}
         >
           <ul className="list-none flex flex-col gap-10 ">
             {navLinks.map((link) => (
