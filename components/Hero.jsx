@@ -1,4 +1,18 @@
+'use client';
+import { useState, useEffect } from 'react';
+import { greetings } from '@/constatns';
+
 const Hero = () => {
+  const [currentGreeting, setCurrentGreeting] = useState('Hello');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * greetings.length);
+      setCurrentGreeting(greetings[randomIndex]);
+    }, 500);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="w-full h-screen overflow-hidden">
       <div className={`absolute top-[120px] flex`}>
@@ -16,8 +30,8 @@ const Hero = () => {
         </div>
         <div className="absolute m-8 max-w-4xl bg-[#00000050] rounded-lg p-2">
           <h1 className="font-black text-white lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px]">
-            Hi, I&apos;m{' '}
-            <span className="bg-gradient-to-r from-blue-500 via-amber-100 to-yellow-400 bg-clip-text text-transparent">
+            {currentGreeting}!<br /> I&apos;m
+            <span className="ml-3 bg-gradient-to-r from-blue-500 via-amber-100 to-yellow-400 bg-clip-text text-transparent">
               Volodymyr
             </span>
           </h1>

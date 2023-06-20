@@ -12,3 +12,14 @@ export const navLinks = [
     title: 'Contacts',
   },
 ];
+
+export const greetings = [
+  'Hello',
+  'Привіт',
+  'Cześć',
+  'مرحبًا',
+  'Ciao',
+  'こんにちは',
+  'Bonjour',
+  'Hola',
+];
