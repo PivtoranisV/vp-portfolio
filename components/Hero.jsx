@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { greetings } from '@/constatns';
 
 const Hero = () => {
@@ -42,6 +43,21 @@ const Hero = () => {
             <br />I am dedicated to bringing dreams to life through code and
             innovation.
           </p>
+        </div>
+        <div className="absolute bottom-1 w-full flex justify-center items-center">
+          <a href="#projects">
+            <div className="w-[35px] h-[64px] border-4 border-secondary rounded-3xl flex justify-center items-start p-2">
+              <motion.dev
+                animate={{ y: [0, 24, 0] }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  repeatType: 'loop',
+                }}
+                className="w-3 h-3 rounded-full bg-primary mb-1"
+              />
+            </div>
+          </a>
         </div>
       </div>
     </section>
