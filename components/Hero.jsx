@@ -14,34 +14,33 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full h-screen overflow-hidden">
-      <div className={`absolute top-[120px] flex`}>
-        <div className="absolute w-full h-full bg-[#00000080]" />
+    <section className="w-full h-screen">
+      <div className="absolute top-[120px] flex w-full items-center">
+        <div className="absolute w-full h-full" />
         <video
-          src="/hero-video.MOV"
+          src="/hero-video.mp4"
           autoPlay
           loop
           muted
-          className="w-full object-cover h-[480px] sm:h-[580px] md:h-[680px]"
+          className="w-full object-cover object-left h-[480px] sm:h-[580px] md:h-[680px] opacity-80"
         />
         <div className="absolute flex flex-col justify-center items-center m-4">
           <div className="w-5 h-5 rounded-full bg-[#fbdf7b]" />
           <div className="w-1 sm:h-80 h-60 yellow-gradient" />
         </div>
-        <div className="absolute m-8 max-w-4xl bg-[#00000050] rounded-lg p-2">
-          <h1 className="font-black text-white lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px]">
+        <div className="absolute m-8 max-w-4xl p-2">
+          <h1 className="font-black text-gray-300 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px]">
             {currentGreeting}!<br /> I&apos;m
-            <span className="ml-3 bg-gradient-to-r from-blue-500 via-amber-100 to-yellow-400 bg-clip-text text-transparent">
+            <span className="ml-3 bg-gradient-to-r from-blue-700 via-amber-200 to-yellow-500 bg-clip-text text-transparent">
               Volodymyr
             </span>
           </h1>
-          <p className="font-medium lg:text-[30px] sm:text-[26px] text-[16px] lg:leading-[40px] text-white">
-            Web Developer Lover from Ukraine
-            <span className="hidden sm:flex">
-              Web Developer Lover from UkraineWeb Developer Lover from
-              UkraineWeb Developer Lover from UkraineWeb Developer Lover from
-              UkraineWeb Developer Lover from Ukraine
-            </span>
+          <p className="font-medium lg:text-[26px] sm:text-[20px] text-[16px] lg:leading-[40px] text-gray-300">
+            Web Developer Lover from Ukraine.
+            <br />I believe that every idea holds the potential to become a
+            reality.
+            <br />I am dedicated to bringing dreams to life through code and
+            innovation.
           </p>
         </div>
       </div>
