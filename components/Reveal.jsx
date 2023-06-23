@@ -2,7 +2,7 @@
 import { useRef, useEffect } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
-const Reveal = ({ children }) => {
+const Reveal = ({ children, width = 'w-full' }) => {
   const ref = useRef();
   const isInView = useInView(ref);
   const textAnimation = useAnimation();
@@ -16,7 +16,7 @@ const Reveal = ({ children }) => {
   }, [textAnimation, isInView, backgroundAnimation]);
 
   return (
-    <div className="relative">
+    <div className={`relative ${width}`}>
       <motion.div
         ref={ref}
         variants={{
@@ -36,7 +36,7 @@ const Reveal = ({ children }) => {
         }}
         initial="hidden"
         animate={backgroundAnimation}
-        transition={{ duration: 0.7, ease: 'easeIn' }}
+        transition={{ duration: 0.5, ease: 'easeIn' }}
         className="absolute top-1 bottom-1 left-0 right-0 bg-secondary z-20"
       />
     </div>
