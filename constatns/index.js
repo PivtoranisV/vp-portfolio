@@ -23,3 +23,36 @@ export const greetings = [
   'Bonjour',
   'Hola',
 ];
+
+export const facts = [
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '1',
+  },
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '2',
+  },
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '3',
+  },
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '4',
+  },
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '5',
+  },
+  {
+    pic: '/poland.jpeg',
+    title: 'Visited 14 countries',
+    id: '6',
+  },
+];
