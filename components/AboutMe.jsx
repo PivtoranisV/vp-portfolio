@@ -1,6 +1,8 @@
+'use client';
 import Reveal from './Reveal';
 import ZoomIn from './ZoomIn';
 import Image from 'next/image';
+import { Tilt } from 'react-tilt';
 import { style } from '@/app/styles/styles';
 import { facts } from '@/constatns';
 
@@ -14,7 +16,7 @@ const AboutMe = () => {
         <div>
           <div>
             <Reveal width="w-fit">
-              <h2 className={style.mainText}>A Love for Technology Ignites</h2>
+              <h2 className={style.mainText}>Love for Technology Ignites</h2>
             </Reveal>
             <ZoomIn>
               <p className={`${style.subText} text-center px-8`}>
@@ -108,23 +110,30 @@ const AboutMe = () => {
         </div>
         <div className="hidden sm:flex flex-col gap-y-8">
           {facts.map((fact) => (
-            <ZoomIn key={fact.id}>
-              <div className="w-[200px] md:w-[250px] lg:w-[300px] p-1 blue-yellow-gradient rounded-2xl">
-                <div className="bg-tertiary h-[300px] rounded-2xl py-1 px-4 flex flex-col justify-evenly items-center">
-                  <h2 className="font-black text-gray-400 lg:text-[45px] text-[30px] lg:leading-[98px] text-center">
-                    Fun Fact
-                  </h2>
-                  <Image
-                    src={fact.pic}
-                    width={150}
-                    height={150}
-                    alt={fact.title}
-                    className="rounded-full"
-                  />
-                  <p className={`${style.subText} text-center`}>{fact.title}</p>
+            <Tilt key={fact.id}>
+              <ZoomIn>
+                <div className="w-[200px] md:w-[250px] lg:w-[300px] p-1 blue-yellow-gradient rounded-2xl">
+                  <div
+                    options={{ max: 45, scale: 1, speed: 450 }}
+                    className="bg-tertiary h-[300px] rounded-2xl py-1 px-4 flex flex-col justify-evenly items-center"
+                  >
+                    <h2 className="font-black text-gray-400 lg:text-[45px] text-[30px] lg:leading-[98px] text-center">
+                      Fun Fact
+                    </h2>
+                    <Image
+                      src={fact.pic}
+                      width={150}
+                      height={150}
+                      alt={fact.title}
+                      className="rounded-full"
+                    />
+                    <p className={`${style.subText} text-center`}>
+                      {fact.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </ZoomIn>
+              </ZoomIn>
+            </Tilt>
           ))}
         </div>
       </div>

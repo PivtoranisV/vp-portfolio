@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section className="w-full h-screen">
-      <div className="absolute top-[120px] flex w-full items-center">
+      <div className="absolute top-[86px] flex w-full items-center">
         <div className="absolute w-full h-full" />
         <video
           src="/hero-video.mp4"
