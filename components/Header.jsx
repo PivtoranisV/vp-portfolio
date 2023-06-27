@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { RiMenu4Line, RiCloseCircleLine } from 'react-icons/ri';
-import { navLinks } from '@/constatns';
+import { navLinks } from '@/constants';
 
 const Header = () => {
   const currentRoute = usePathname();

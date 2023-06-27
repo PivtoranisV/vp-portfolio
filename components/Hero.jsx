@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { greetings } from '@/constatns';
+import { greetings } from '@/constants';
 
 const Hero = () => {
   const [currentGreeting, setCurrentGreeting] = useState('Hello');

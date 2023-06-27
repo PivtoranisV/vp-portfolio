@@ -1,4 +1,4 @@
-import Reveal from './Reveal';
+import Reveal from './Motions/Reveal';
 
 const Slogan = () => {
   return (
