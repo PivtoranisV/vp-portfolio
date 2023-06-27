@@ -95,3 +95,46 @@ export const facts = [
     id: '6',
   },
 ];
+
+export const technologies = [
+  {
+    name: 'HTML 5',
+    icon: '/skills/html.png',
+  },
+  {
+    name: 'CSS 3',
+    icon: '/skills/css.png',
+  },
+  {
+    name: 'JavaScript',
+    icon: '/skills/javascript.png',
+  },
+  {
+    name: 'TypeScript',
+    icon: '/skills/typescript.png',
+  },
+  {
+    name: 'React JS',
+    icon: '/skills/reactjs.png',
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: '/skills/redux.png',
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: '/skills/tailwind.png',
+  },
+  {
+    name: 'MongoDB',
+    icon: '/skills/mongodb.png',
+  },
+  {
+    name: 'git',
+    icon: '/skills/git.png',
+  },
+  {
+    name: 'Next JS',
+    icon: '/skills/next_js.png',
+  },
+];
