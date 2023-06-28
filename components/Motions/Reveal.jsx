@@ -37,7 +37,7 @@ const Reveal = ({ children, width = 'w-full' }) => {
         initial="hidden"
         animate={backgroundAnimation}
         transition={{ duration: 0.5, ease: 'easeIn' }}
-        className="absolute top-1 bottom-1 left-0 right-0 bg-secondary z-20"
+        className="absolute top-1 bottom-1 left-0 right-0 blue-yellow-gradient z-20"
       />
     </div>
   );

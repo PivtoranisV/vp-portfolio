@@ -24,6 +24,17 @@ export const greetings = [
   'Hola',
 ];
 
+export const slogan = [
+  {
+    id: 's1',
+    title: 'If you can DREAM IT, You can DO IT!',
+  },
+  {
+    id: 's2',
+    title: 'Do What You LOVE LOVE What You Do!',
+  },
+];
+
 export const intro = [
   {
     id: 'i1',
