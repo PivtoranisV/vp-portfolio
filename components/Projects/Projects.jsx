@@ -16,7 +16,7 @@ const Projects = () => {
         effectively.
       </p>
       <div className="flex flex-row flex-wrap justify-center gap-10 mx-3 my-10">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <ProjectItem
             key={project.name}
             picture={project.pic}
@@ -25,6 +25,7 @@ const Projects = () => {
             demo={project.demo}
             github={project.github}
             tags={project.tags}
+            index={index}
           />
         ))}
       </div>
