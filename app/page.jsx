@@ -1,5 +1,5 @@
 import Hero from '@/components/Hero';
-import Projects from '@/components/Projects';
+import Projects from '@/components/Projects/Projects';
 import Skills from '@/components/Skills/Skills';
 import Slogan from '@/components/Slogan';
 import { slogan } from '@/constants';

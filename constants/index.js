@@ -149,3 +149,110 @@ export const technologies = [
     icon: '/skills/next_js.png',
   },
 ];
+
+export const projects = [
+  {
+    name: 'TripSnap',
+    description:
+      'TripSnap is a web application that allows users to share their travel experiences by creating and updating trip records. Users can add details such as the trip title, country visited, date, hotel, memorable details, and upload a photo from their trip. The application aims to inspire other adventurers and help them plan their own trips based on shared experiences.',
+    tags: [
+      {
+        name: 'react.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'next.js',
+        color: 'orange-text-gradient',
+      },
+    ],
+    pic: '/projects/tripsnap.png',
+    github: 'https://github.com/PivtoranisV/project-trip-snap',
+    demo: 'https://trip-snap.vercel.app/',
+  },
+  {
+    name: 'Memory Game',
+    description:
+      'Welcome to the ultimate memory challenge! Unleash your brain"s potential and put your memory to the test with our one-of-a-kind game.',
+    tags: [
+      {
+        name: 'react.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSSmodule',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'orange-text-gradient',
+      },
+    ],
+    pic: '/projects/memory-game.png',
+    github: 'https://github.com/PivtoranisV/project-memory-game',
+    demo: 'https://memory-game-58079.web.app',
+  },
+  {
+    name: 'Goals Tracker',
+    description:
+      'This project was inspired by my own personal goal tracking needs. The application is designed to help users track their progress towards their goals and provide motivation to achieve them within the given deadline.',
+    tags: [
+      {
+        name: 'react.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ReactRouter',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSSmodule',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+    ],
+    pic: '/projects/goals-tracker.png',
+    github: 'https://github.com/PivtoranisV/project-goals-tracker',
+    demo: 'https://goals-tracker-25f88.web.app/',
+  },
+  {
+    name: 'Home Services',
+    description:
+      'Web application for ordering home services. Users can Browse and select from a list of home services, Add services to a cart, View their cart and remove services, Place an order for the selected services',
+    tags: [
+      {
+        name: 'react.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSSmodule',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+    ],
+    pic: '/projects/home-services.png',
+    github: 'https://github.com/PivtoranisV/project-home-services',
+    demo: 'https://home-services-40fc3.web.app/',
+  },
+];
