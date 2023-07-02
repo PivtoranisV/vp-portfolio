@@ -4,8 +4,8 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <section className="my-20" id="projects">
-      <h1 className="font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mb-10 uppercase tracking-wider">
+    <section className="my-44" id="projects">
+      <h1 className="px-2 font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mb-10 uppercase tracking-wider">
         PROJECTS
       </h1>
       <p className={`${style.subText} px-8`}>

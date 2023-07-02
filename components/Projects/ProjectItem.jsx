@@ -21,14 +21,14 @@ const ProjectItem = ({
           scale: 1,
           speed: 450,
         }}
-        className="blue-yellow-gradient p-1 h-full rounded-2xl"
+        className="blue-yellow-gradient p-1 h-full rounded-2xl hover:shadow-[0_35px_60px_-15px_rgba(235,235,59,1)]"
       >
         <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full">
           <div className="flex justify-between text-[30px] sm:text-[40px] text-gray-400 mb-5">
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" className="hover:text-primary">
               <AiFillGithub />
             </a>
-            <a href={demo} target="_blank">
+            <a href={demo} target="_blank" className="hover:text-secondary">
               <AiFillEye />
             </a>
           </div>

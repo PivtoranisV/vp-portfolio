@@ -6,12 +6,12 @@ import { slogan } from '@/constants';
 
 export default function Home() {
   return (
-    <div className="relative z-0">
+    <main className="relative z-0">
       <Hero />
       <Slogan slogan={slogan[0]} />
       <Skills />
       <Slogan slogan={slogan[1]} />
       <Projects />
-    </div>
+    </main>
   );
 }

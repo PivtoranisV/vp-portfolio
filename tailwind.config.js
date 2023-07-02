@@ -12,9 +12,6 @@ module.exports = {
         secondary: '#ffd94f',
         tertiary: '#151030',
       },
-      boxShadow: {
-        card: '0px 35px 120px -15px #211e35',
-      },
       backgroundImage: {
         hero: "url('/bg2.jpg')",
       },
