@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
-const FadeIn = ({ children, index }) => {
+const FadeIn = ({ children, index = 1 }) => {
   const ref = useRef();
   const isInView = useInView(ref);
   const textAnimation = useAnimation();
