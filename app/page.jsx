@@ -1,3 +1,4 @@
+import Contacts from '@/components/Contacts';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects/Projects';
 import Skills from '@/components/Skills/Skills';
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Slogan slogan={slogan[1]} />
       <Projects />
+      <Contacts />
     </main>
   );
 }
