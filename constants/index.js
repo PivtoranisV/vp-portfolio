@@ -40,7 +40,7 @@ export const intro = [
     id: 'i1',
     title: 'Love for Technology Ignites',
     description:
-      'Once upon a time, in the picturesque town of Lviv in western Ukraine, I discovered my deep-rooted love for technology. It all began when I laid my hands on my first PC, and from that moment,I was captivated by the world of programming.',
+      'Once upon a time, in the picturesque town of Lviv in western Ukraine, I discovered my deep-rooted love for technology. It all began when I laid my hands on my first PC, and from that moment, I was captivated by the world of programming.',
   },
   {
     id: 'i2',
@@ -52,7 +52,7 @@ export const intro = [
     id: 'i3',
     title: 'Embracing Innovation at Apple',
     description:
-      'That&apos;s when I made the life-changing decision to move to Dubai, a vibrant city filled with endless possibilities. I initially found my place in the retail sector, but my heart yearned for something more, something that would truly allow me to immerse myself in the world of technology. Fortune smiled upon me when I landed a job at Apple, one of the most renowned companies in the world. Though I wasn&apos;t directly involved in programming at that time, I found myself surrounded by innovation and an unwavering passion for technology.',
+      'That"s when I made the life-changing decision to move to Dubai, a vibrant city filled with endless possibilities. I initially found my place in the retail sector, but my heart yearned for something more, something that would truly allow me to immerse myself in the world of technology. Fortune smiled upon me when I landed a job at Apple, one of the most renowned companies in the world. Though I wasn"t directly involved in programming at that time, I found myself surrounded by innovation and an unwavering passion for technology.',
   },
   {
     id: 'i4',
@@ -70,39 +70,39 @@ export const intro = [
     id: 'i6',
     title: 'Building a Promising Future',
     description:
-      'Today, I am confident in my ability to build robust websites using React.js and have expanded my skills to include Next.js. With each new project, I continue to push the boundaries of what I can achieve, always striving for excellence in every line of code. I invite you to explore my portfolio, where you&apos;ll witness the culmination of my passion and dedication to web development. Together, let&apos;s create meaningful and innovative experiences on the digital canvas.',
+      'Today, I am confident in my ability to build robust websites using React.js and have expanded my skills to include Next.js. With each new project, I continue to push the boundaries of what I can achieve, always striving for excellence in every line of code. I invite you to explore my portfolio, where you"ll witness the culmination of my passion and dedication to web development. Together, let"s create meaningful and innovative experiences on the digital canvas.',
   },
 ];
 
 export const facts = [
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/run.jpg',
+    title: "I'm Training To Run A Marathon",
     id: '1',
   },
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/mountain.jpeg',
+    title: 'I climbed the highest peak in Ukraine with my daughter on my back.',
     id: '2',
   },
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/book2.jpg',
+    title: 'Favorite book - The Richest Man in Babylon',
     id: '3',
   },
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/countries.png',
+    title: 'I have visited 14 countries',
     id: '4',
   },
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/skydive.jpg',
+    title: 'I have skydived from a plane',
     id: '5',
   },
   {
-    pic: '/poland.jpeg',
-    title: 'Visited 14 countries',
+    pic: '/facts/car.jpg',
+    title: 'I love the color yellow; even my car is yellow 😀',
     id: '6',
   },
 ];
