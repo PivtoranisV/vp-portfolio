@@ -256,3 +256,40 @@ export const projects = [
     demo: 'https://home-services-40fc3.web.app/',
   },
 ];
+
+export const experiences = [
+  {
+    title: 'Operations Expert, Dubai, UAE',
+    company_name: 'Apple',
+    icon: '/work/apple.png',
+    iconBg: '#383E56',
+    date: 'March 2016 - July 2023',
+    points: [
+      'Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system',
+      'Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.',
+      'Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making.',
+    ],
+  },
+  {
+    title: 'Sales Advisor at Gap, Dubai, UAE',
+    company_name: 'Al Tayer Group',
+    icon: '/work/alTayer.png',
+    iconBg: '#E6DEDD',
+    date: 'Jan 2014 - Feb 2016',
+    points: [
+      'Worked collaboratively with a diverse team of colleagues from different cultural backgrounds to provide exceptional customer service, ensure the store"s success, and meet or exceed sales targets.',
+      'Adapted quickly to new point-of-sale systems and other retail technologies, ensuring efficient and effective operations in the store, and demonstrating a willingness to learn and adopt new technologies as needed',
+    ],
+  },
+  {
+    title: 'The consulting and creditng manager, Lviv, Ukraine',
+    company_name: 'Credit Agricole Bank',
+    icon: '/work/bank.png',
+    iconBg: '#383E56',
+    date: 'April 2010 - Nov 2013',
+    points: [
+      'Leveraged technology to deliver a seamless customer experience, understanding clients financial needs and providing customised solutions',
+      'Utilised tools and systems for loan application management and ensure compliance with regulations, demonstrating attention to detail and accuracy.',
+    ],
+  },
+];

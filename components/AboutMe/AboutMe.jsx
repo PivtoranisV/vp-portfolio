@@ -6,7 +6,7 @@ import IntroItem from './IntroItem';
 const AboutMe = () => {
   return (
     <>
-      <h1 className="font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] text-center mb-20 uppercase tracking-wider">
+      <h1 className="font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mb-20 uppercase tracking-wider">
         Introduction
       </h1>
       <div className="flex items-center w-11/12 mx-auto">
