@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full h-screen">
+    <section className="w-full h-screen mb-20">
       <div className="absolute top-[86px] flex w-full items-center">
         <div className="absolute w-full h-full" />
         <video
@@ -24,7 +24,7 @@ const Hero = () => {
           playsInline
           loop
           muted
-          className="w-full object-cover object-left h-[480px] sm:h-[580px] md:h-[680px] opacity-80"
+          className="w-full object-cover object-left h-[808px] sm:h-[722px] opacity-80"
         />
         <div className="absolute flex flex-col justify-center items-center m-4">
           <div className="w-5 h-5 rounded-full bg-[#fbdf7b]" />
@@ -38,7 +38,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="font-medium lg:text-[26px] sm:text-[20px] text-[16px] lg:leading-[40px] text-gray-300">
-            Web Developer Lover from Ukraine.
+            Web Developer Enthusiast from Ukraine.
             <br />I believe that every idea holds the potential to become a
             reality.
             <br />I am dedicated to bringing dreams to life through code and

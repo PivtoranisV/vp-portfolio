@@ -52,7 +52,7 @@ export const intro = [
     id: 'i3',
     title: 'Embracing Innovation at Apple',
     description:
-      'That"s when I made the life-changing decision to move to Dubai, a vibrant city filled with endless possibilities. I initially found my place in the retail sector, but my heart yearned for something more, something that would truly allow me to immerse myself in the world of technology. Fortune smiled upon me when I landed a job at Apple, one of the most renowned companies in the world. Though I wasn"t directly involved in programming at that time, I found myself surrounded by innovation and an unwavering passion for technology.',
+      "That's when I made the life-changing decision to move to Dubai, a vibrant city filled with endless possibilities. I initially found my place in the retail sector, but my heart yearned for something more, something that would truly allow me to immerse myself in the world of technology. Fortune smiled upon me when I landed a job at Apple, one of the most renowned companies in the world. Though I wasn't directly involved in programming at that time, I found myself surrounded by innovation and an unwavering passion for technology.",
   },
   {
     id: 'i4',
@@ -70,7 +70,7 @@ export const intro = [
     id: 'i6',
     title: 'Building a Promising Future',
     description:
-      'Today, I am confident in my ability to build robust websites using React.js and have expanded my skills to include Next.js. With each new project, I continue to push the boundaries of what I can achieve, always striving for excellence in every line of code. I invite you to explore my portfolio, where you"ll witness the culmination of my passion and dedication to web development. Together, let"s create meaningful and innovative experiences on the digital canvas.',
+      "Today, I am confident in my ability to build robust websites using React.js and have expanded my skills to include Next.js. With each new project, I continue to push the boundaries of what I can achieve, always striving for excellence in every line of code. I invite you to explore my portfolio, where you'll witness the culmination of my passion and dedication to web development. Together, let's create meaningful and innovative experiences on the digital canvas.",
   },
 ];
 
@@ -180,7 +180,7 @@ export const projects = [
   {
     name: 'Memory Game',
     description:
-      'Welcome to the ultimate memory challenge! Unleash your brain"s potential and put your memory to the test with our one-of-a-kind game.',
+      "Welcome to the ultimate memory challenge! Unleash your brain's potential and put your memory to the test with our one-of-a-kind game.",
     tags: [
       {
         name: 'react.js',
@@ -277,7 +277,7 @@ export const experiences = [
     iconBg: '#E6DEDD',
     date: 'Jan 2014 - Feb 2016',
     points: [
-      'Worked collaboratively with a diverse team of colleagues from different cultural backgrounds to provide exceptional customer service, ensure the store"s success, and meet or exceed sales targets.',
+      "Worked collaboratively with a diverse team of colleagues from different cultural backgrounds to provide exceptional customer service, ensure the store's success, and meet or exceed sales targets.",
       'Adapted quickly to new point-of-sale systems and other retail technologies, ensuring efficient and effective operations in the store, and demonstrating a willingness to learn and adopt new technologies as needed',
     ],
   },
