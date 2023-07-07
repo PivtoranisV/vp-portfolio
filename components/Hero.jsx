@@ -21,6 +21,7 @@ const Hero = () => {
         <video
           src="/hero-video.mp4"
           autoPlay
+          playsInline
           loop
           muted
           className="w-full object-cover object-left h-[480px] sm:h-[580px] md:h-[680px] opacity-80"
