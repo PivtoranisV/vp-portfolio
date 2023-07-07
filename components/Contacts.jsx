@@ -17,7 +17,6 @@ const Contacts = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setIsLoading(true);
-
     emailjs
       .send(
         process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -58,7 +57,7 @@ const Contacts = () => {
       </h1>
       <FadeIn>
         <div className="mt-12 flex md:flex-row justify-between flex-col gap-10 w-[96%] mx-auto">
-          <address className="bg-tertiary opacity-70 p-8 rounded-2xl flex flex-col justify-center gap-4">
+          <address className="bg-tertiary not-italic opacity-70 p-8 rounded-2xl flex flex-col justify-center gap-4">
             <div className="flex gap-4 items-center lg:text-[30px] sm:text-[25px] text-[20px] text-gray-400">
               <IoLocationSharp className="text-secondary" />
               <a
