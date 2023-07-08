@@ -7,7 +7,7 @@ import { slogan } from '@/constants';
 
 export default function Home() {
   return (
-    <main className="relative z-0">
+    <main className="z-0 w-full">
       <Hero />
       <Slogan slogan={slogan[0]} />
       <Skills />

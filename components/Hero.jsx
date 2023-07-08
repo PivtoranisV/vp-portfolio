@@ -15,16 +15,15 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full h-screen mb-20">
-      <div className="absolute top-[86px] flex w-full items-center">
-        <div className="absolute w-full h-full" />
+    <section className="w-full mb-44">
+      <div className="flex w-full h-screen items-center">
         <video
           src="/hero-video.mp4"
           autoPlay
           playsInline
           loop
           muted
-          className="w-full object-cover object-left h-[722px] opacity-80"
+          className="w-full object-cover h-full object-left opacity-80"
         />
         <div className="absolute flex flex-col justify-center items-center m-4">
           <div className="w-5 h-5 rounded-full bg-[#fbdf7b]" />
@@ -45,7 +44,7 @@ const Hero = () => {
             innovation.
           </p>
         </div>
-        <div className="absolute bottom-1 w-full flex justify-center items-center">
+        <div className="absolute bottom-2 w-full flex justify-center items-center">
           <a href="#projects">
             <div className="w-[35px] h-[64px] border-4 border-secondary rounded-3xl flex justify-center items-start p-2">
               <motion.div

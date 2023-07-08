@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <section className="my-44" id="projects">
-      <h1 className="px-2 font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mb-10 tracking-wider">
+      <h1 className="px-2 font-black text-white lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mb-10 tracking-wider">
         Projects
       </h1>
       <p className={`${style.subText} px-8`}>

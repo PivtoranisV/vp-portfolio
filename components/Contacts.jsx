@@ -52,7 +52,7 @@ const Contacts = () => {
 
   return (
     <section id="contacts">
-      <h1 className="px-2 font-black text-gray-400 lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-20 tracking-wider">
+      <h1 className="px-2 font-black text-white lg:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-20 tracking-wider">
         Contacts
       </h1>
       <FadeIn>
@@ -109,6 +109,7 @@ const Contacts = () => {
                 name="name"
                 value={form.name}
                 placeholder="What's your good name?"
+                required
                 className="py-4 px-6 placeholder:text-gray-400 text-secondary rounded-lg outline-none border-none font-medium mb-6"
                 onChange={inputHandler}
               />
@@ -118,6 +119,7 @@ const Contacts = () => {
                 name="email"
                 value={form.email}
                 placeholder="What's your web address?"
+                required
                 className="py-4 px-6 placeholder:text-gray-400 text-secondary rounded-lg outline-none border-none font-medium mb-6"
                 onChange={inputHandler}
               />
@@ -127,6 +129,7 @@ const Contacts = () => {
                 name="message"
                 value={form.message}
                 placeholder="What you want to say?"
+                required
                 className="py-4 px-6 placeholder:text-gray-400 text-secondary rounded-lg outline-none border-none font-medium mb-6"
                 onChange={inputHandler}
               />
