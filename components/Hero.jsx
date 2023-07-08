@@ -24,7 +24,7 @@ const Hero = () => {
           playsInline
           loop
           muted
-          className="w-full object-cover object-left h-[808px] sm:h-[722px] opacity-80"
+          className="w-full object-cover object-left h-[722px] opacity-80"
         />
         <div className="absolute flex flex-col justify-center items-center m-4">
           <div className="w-5 h-5 rounded-full bg-[#fbdf7b]" />
